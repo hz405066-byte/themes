@@ -1,0 +1,69 @@
+QWidget#MainApp {
+    background-color: #37271C;
+}
+QWidget#NavBar {
+    background-color: #4F3625;
+    border-bottom: 1px solid #52443C;
+}
+QLineEdit#UrlBar {
+    background-color: #362112;
+    color: #F0DFD7;
+    border: 1px solid #E1E4DA;
+    border-radius: 17px;
+    padding: 0 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    min-height: 34px;
+}
+QLineEdit#UrlBar:focus {
+    border: 1px solid #E37225;
+}
+QPushButton.nav-btn {
+    background-color: transparent;
+    color: #F0D39F;
+    border: none;
+    border-radius: 17px;
+    font-size: 18px;
+    font-weight: bold;
+}
+QPushButton.nav-btn:hover {
+    background-color: #604a3b;
+}
+QPushButton.nav-btn::menu-indicator {
+    image: none; /* Убираем стандартную стрелочку у меню */
+}
+QTabBar {
+    background-color: #37271C;
+    border: none;
+}
+QTabBar::tab {
+    background-color: #37271C;
+    color: #E4DFD7;
+    padding: 8px 16px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    min-width: 120px;
+    max-width: 240px;
+    border-right: 0px solid #242D20;
+}
+QTabBar::tab:selected {
+    background-color: #4F3625;
+    color: #E4DFD7;
+    border-right: none;
+}
+QTabBar::close-button {
+    subcontrol-position: right;
+    margin-right: 4px;
+}
+QMenu {
+    background-color: #221a15;
+    color: #d3c3bb;
+    border: 1px solid #684c3b;
+    border-radius: 0px;
+}
+QMenu::item {
+    padding: 8px 32px 8px 24px;
+}
+QMenu::item:selected {
+    background-color: #39312d;
+}
