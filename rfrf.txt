@@ -1,0 +1,44 @@
+            const categories = [
+                { id: "all", name: "📦 Все темы" },
+                { id: "A", name: "CoreFlow" }
+            ];
+
+            // ── темы (ссылки на реальные raw) ──
+            const themes = [
+                {
+                    id: "CoreFlow_green",
+                    category: "A",
+                    name: "CoreFlow [🟩] Material green",
+                    desc: "Сдержанная тёмно-зелёная гамма. Чистые линии и мягкий контраст.",
+                    image: "https://i.oneme.ru/i?r=BTE2sh_eZW7g8kugOdIm2NotqQx_bcSllfQ_y0ONgktDyiXFbmdGs7Sr1L3GxDwBAUE",
+                    cssUrl: "https://raw.githubusercontent.com/hz405066-byte/themes/51755cd1f1fe021a5038208a05b3c5c43d97093a/color.txt",
+                    htmlUrl: "https://raw.githubusercontent.com/hz405066-byte/themes/refs/heads/main/index.txt"
+                },
+                {
+                    id: "CoreFlow_orange",
+                    category: "A",
+                    name: "CoreFlow [🟧] Material orange",
+                    desc: "Приглушённый оранжевый акцент. Монохромная база с теплотой.",
+                    image: "",
+                    cssUrl: "https://raw.githubusercontent.com/hz405066-byte/themes/refs/heads/main/color1.txt",
+                    htmlUrl: ""
+                },
+                {
+                    id: "CoreFlow_",
+                    category: "A",
+                    name: "CoreFlow [] Material ",
+                    desc: "Приглушённый оранжевый акцент. Монохромная база с теплотой.",
+                    image: "",
+                    cssUrl: "",
+                    htmlUrl: ""
+                },
+                {
+                    id: "Teto-Neon",
+                    category: "Teto",
+                    name: "Teto Neon",
+                    desc: "Цвета певица Kasane Teto в неоне.",
+                    image: "",
+                    cssUrl: "",
+                    htmlUrl: ""
+                }
+            ];
